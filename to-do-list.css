@@ -1,0 +1,100 @@
+body{
+    height: 114vh;
+    background: url('https://thumbs.dreamstime.com/z/clean-notebook-pencil-cup-coffee-clock-copy-space-yellow-blue-table-background-presentation-writer-school-150403999.jpg');
+}
+h1{
+    margin-left: 690px;
+    margin-top: 200px;
+    font-size: 280%;
+    font-family:'Times New Roman', Times, serif;
+}
+.container{
+    width: 35%;
+    min-width: 450px;
+    position: absolute;
+    top: 260px;
+    margin-left: 540px; 
+    padding: 30px 40px;
+}
+#newtask{
+    position: relative;
+    background-color: rgb(213, 143, 213);
+    border: 1px solid rgb(171, 75, 171);
+    padding: 30px 20px;
+    border-radius: 5px;
+    height: 55px;
+}
+#newtask input{
+    width: 70%;
+    height: 55px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 17px;
+    border: 2px solid #d1d3d4;
+    padding: auto;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+}
+#newtask input:focus{
+    outline: none;
+    border-color: rgb(125, 48, 125);
+}
+#newtask button{
+    position: relative;
+    margin-top: 12px;
+    float: right;
+    width: 20%;
+    height: 35px;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: purple;
+    border: 1px solid rgb(62, 0, 62);
+    color: white;
+    cursor: pointer;
+}
+#newtask button:active{
+    background-color: darkblue;
+}
+#tasks{
+    background-color: rgb(179, 21, 247);
+    border: 1px solid rgb(155, 24, 207);
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    width: 92%;
+    position: relative;
+}
+.task{
+    background-color: white;
+    height: 35px;
+    padding: 5px 5px;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #d1d3d4;
+    cursor: pointer;
+}
+.task span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+.task button{
+    background-color: rgb(19, 19, 255);
+    color: white;
+    height: 25px;
+    width: 70px;
+    border-radius: 8px;
+    border: 1px solid rgb(69, 69, 184);
+    cursor: pointer;
+    outline: none;
+}
+.task button:active{
+    background-color: red;
+}
+.completed{
+    text-decoration: line-through;
+}
